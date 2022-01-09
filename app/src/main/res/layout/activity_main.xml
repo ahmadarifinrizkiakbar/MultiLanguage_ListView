@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ic_home2"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <ImageButton
+            android:id="@+id/btnProfil"
+            android:padding="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/oval"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:onClick="Pindah"
+            android:src="@drawable/profile"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/profil"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="298dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/jenis_hewan"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:shadowDx="@integer/material_motion_duration_medium_1"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            >
+
+            <ImageButton
+                android:id="@+id/btn_buka_ras_Lebah"
+                android:layout_marginLeft="20dp"
+                android:padding="10dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/lebah"
+                android:scaleType="fitCenter"
+                android:background="@drawable/oval"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:text="@string/lebah"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        >
+
+        <ImageButton
+            android:id="@+id/btn_buka_ras_Kura"
+            android:layout_marginLeft="20dp"
+            android:layout_width="100dp"
+            android:padding="10dp"
+            android:layout_height="100dp"
+            android:src="@drawable/kura"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"
+            android:background="@drawable/oval"
+            />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:text="@string/kura_kura"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        >
+
+        <ImageButton
+            android:id="@+id/btn_buka_ras_Lumba"
+            android:padding="10dp"
+            android:layout_width="94dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/oval"
+            android:scaleType="fitCenter"
+            android:src="@drawable/lumba"
+            />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:text="@string/lumba_lumba"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="120dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:textSize="12dp"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:text="copyright &#169; Ahmad Arifin Rizki Akbar 2021"
+            />
+
+
+    </LinearLayout>
+</LinearLayout>
